@@ -5,4 +5,5 @@
 /.nx/workspace-data
 
 */.env
-/apps/*/.env
+apps/*/.env
+apps/backend/.env
