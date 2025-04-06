@@ -6,8 +6,8 @@ import { AppService } from './app.service';
 import { PufethConversionRateModule } from './pufeth-conversion-rate/pufeth-conversion-rate.module';
 
 @Module({
-  imports: [PufethConversionRateModule, ConfigModule],
-  controllers: [AppController],
-  providers: [AppService],
+	imports: [PufethConversionRateModule, ConfigModule],
+	controllers: [AppController],
+	providers: [AppService],
 })
 export class AppModule {}

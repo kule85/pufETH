@@ -3,7 +3,7 @@ import { PufethConversionRateController } from './pufeth-conversion-rate.control
 import { PufethConversionRateService } from './pufeth-conversion-rate.service';
 
 @Module({
-  controllers: [PufethConversionRateController],
-  providers: [PufethConversionRateService],
+	controllers: [PufethConversionRateController],
+	providers: [PufethConversionRateService],
 })
 export class PufethConversionRateModule {}
