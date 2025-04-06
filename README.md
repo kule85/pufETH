@@ -2,12 +2,20 @@
 
 This is a monorepo project that contains a frontend (React application) and a backend (NestJS microservice) for working with pufETH conversion data.
 
+---
+
 ## 📦 Technologies
 
 - [Nx](https://nx.dev) workspace
 - [NestJS](https://nestjs.com) for the backend microservice
 - [React](https://reactjs.org) for the frontend application
 - [ethers.js](https://docs.ethers.org) for interacting with the Ethereum blockchain
+
+---
+
+## Requirements
+
+- [node.js](https://nodejs.org/en) >= 20.17.0
 
 ---
 
