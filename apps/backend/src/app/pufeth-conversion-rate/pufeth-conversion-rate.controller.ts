@@ -11,7 +11,7 @@ export class PufethConversionRateController {
 	async getConversionRateHttp(): Promise<Observable<MessageEvent>> {
 		const rate = await this.pufethConversionRateService.getConversionRate();
 
-		return interval(5000).pipe(map((_) => ({ data: { rate } } as MessageEvent)));
+		return interval(3000).pipe(map((_) => ({ data: { rate } } as MessageEvent)));
 	}
 
 	@MessagePattern('get_conversion_rate')
