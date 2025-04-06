@@ -3,7 +3,3 @@
 /coverage
 /.nx/cache
 /.nx/workspace-data
-
-*/.env
-apps/*/.env
-apps/backend/.env
