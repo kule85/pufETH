@@ -29,7 +29,7 @@ yarn install
 ### 3. Setup .env
 
 ```
-cp .env.example .env
+cd apps/backend && cp .env.example .env && cd -
 ```
 
 Then, make sure to update all required properties in the .env file with valid values based on your local setup.
