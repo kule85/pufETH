@@ -17,11 +17,7 @@ export class PufethConversionRateService {
 	async getConversionRate(): Promise<number> {
 		const totalAssets = await this.contract.totalAssets();
 		const totalSupply = await this.contract.totalSupply();
-		const decimals = await this.contract.decimals();
 
-		return (
-			Number(ethers.formatUnits(totalAssets, Number(decimals))) /
-			Number(ethers.formatUnits(totalSupply, Number(decimals)))
-		);
+		return Number(totalAssets) / Number(totalSupply);
 	}
 }
